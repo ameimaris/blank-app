@@ -13,7 +13,7 @@ st.write(vv)
 
 title = st.text_input("Input - use a num", "1")
 title  = int(title)
-out = eval(st.secrets["compute"])
+out = eval(f'st.secrets["compute"]')
 st.write("Output", out)
 
 hide_streamlit_styles = """

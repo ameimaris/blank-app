@@ -10,9 +10,13 @@ vv = eval(st.secrets["vals"])
 #exec, compile etc
 st.write(vv)
 
+st.write(st.secrets["compute"])
 
 title = st.text_input("Input - use a num", "1")
+st.write(title)
 title  = int(title)
+st.write(title)
+
 out = exec(st.secrets["compute"])
 st.write("Output", out)
 

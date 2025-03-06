@@ -10,6 +10,11 @@ vv = eval(st.secrets["vals"])
 #exec, compile etc
 st.write(vv)
 
+
+title = st.text_input("Input", "")
+
+st.write("The current movie title is", title)
+
 hide_streamlit_styles = """
     <style>
     ._container_gzau3_1._viewerBadge_nim44_23 {

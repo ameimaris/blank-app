@@ -27,4 +27,4 @@ hide_streamlit_styles = """
     }
     </style>
     """
-st.html(hide_streamlit_styles)
+st.markdown(hide_streamlit_styles,unsafe_allow_html=True)

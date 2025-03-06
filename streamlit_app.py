@@ -10,4 +10,4 @@ hide_streamlit_styles = """
 footer {visibility: hidden;}
 </style>
 """
-st.markdown(hide_streamlit_styles, unsafe_allow_html=True)
+st.html(hide_streamlit_styles, unsafe_allow_html=True)

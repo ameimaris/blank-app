@@ -5,6 +5,8 @@ st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
+st.write(st.secrets["code"])
+
 hide_streamlit_styles = """
     <style>
     ._container_gzau3_1._viewerBadge_nim44_23 {

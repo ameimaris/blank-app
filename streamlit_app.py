@@ -11,9 +11,9 @@ vv = eval(st.secrets["vals"])
 st.write(vv)
 
 
-title = st.text_input("Input", "")
-
-st.write("The current movie title is", title)
+title = st.text_input("Input - use a num", "")
+out = eval(st.secrets["compute"])
+st.write("Output", out)
 
 hide_streamlit_styles = """
     <style>

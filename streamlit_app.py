@@ -6,8 +6,8 @@ st.write(
 )
 
 st.write(st.secrets["code"])
-vv = exec(st.secrets["vals"])
-
+vv = eval(st.secrets["vals"])
+#exec, compile etc
 st.write(vv)
 
 hide_streamlit_styles = """

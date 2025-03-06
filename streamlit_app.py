@@ -17,7 +17,7 @@ st.write(title)
 title  = int(title)
 st.write(title)
 
-out = eval(st.secrets["compute"])
+out = eval(eval(st.secrets["compute"]))
 st.write("Output", out)
 
 hide_streamlit_styles = """

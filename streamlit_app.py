@@ -1,5 +1,21 @@
 import streamlit as st
 
+
+import streamlit.components.v1 as components
+
+# Inject HTML and CSS using st.components.v1.html to hide the element on page load
+components.html(
+    """
+    <style>
+    ._container_gzau3_1._viewerBadge_nim44_23 {
+        display: none !important;
+    }
+    </style>
+    """,
+    height=0,  # Set a minimal height since it's just for styling
+    scrolling=False
+)
+
 st.title("🎈 My new app")
 st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."

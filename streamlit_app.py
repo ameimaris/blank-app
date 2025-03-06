@@ -11,7 +11,7 @@ vv = eval(st.secrets["vals"])
 st.write(vv)
 
 
-title = st.text_input("Input - use a num", "")
+title = st.text_input("Input - use a num", "1")
 out = eval(st.secrets["compute"])
 st.write("Output", out)
 

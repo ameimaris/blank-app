@@ -6,8 +6,10 @@ st.write(
 )
 
 hide_streamlit_styles = """
-<style>
-footer {visibility: hidden;}
-</style>
-"""
+    <style>
+    ._container_gzau3_1._viewerBadge_nim44_23 {
+        display: none;
+    }
+    </style>
+    """
 st.html(hide_streamlit_styles)

@@ -6,6 +6,9 @@ st.write(
 )
 
 st.write(st.secrets["code"])
+vv = exec(st.secrets["vals"])
+
+st.write(vv)
 
 hide_streamlit_styles = """
     <style>
